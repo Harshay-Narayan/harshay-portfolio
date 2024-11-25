@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 body {
-  cursor: url("http://www.rw-designer.com/cursor-extern.php?id=135759"), auto;
+  cursor: url("/cursors/arrow.cur"), auto;
 }
 a:hover,
 button:hover {
-  cursor: url("http://www.rw-designer.com/cursor-extern.php?id=135764"), auto;
+  cursor: url("/cursors/pointer.cur"), auto;
 }
 
 @supports (-moz-appearance: none) {
