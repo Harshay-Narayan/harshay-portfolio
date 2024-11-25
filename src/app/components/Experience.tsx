@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import "react-vertical-timeline-component/style.min.css";
 import SectionHeading from "./SectionHeading";
 import { experiencesData } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
@@ -22,7 +21,7 @@ function IndividualExperience({
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 0.9 }}
-      // viewport={{ once: true }}
+      viewport={{ once: true }}
       className="relative border-l max-w-[48rem] mx-5 flex"
     >
       <div className="flex justify-center overflow-hidden items-center absolute left-0 top-0 -translate-x-1/2 bg-white border border-gray-400 rounded-full w-14 h-14">
@@ -42,15 +41,18 @@ function IndividualExperience({
         className="p-10 pt-3"
       >
         <div className="text-sm">{date}</div>
-        <div className="text-lg font-bold">
+        <div className="text-lg sm:text-md font-bold">
           {title} | {location}
         </div>
         <div className="text-sm">{company}</div>
         <div className="pt-3 text-justify text-sm">
           <ul className="list-disc">
-            {description.split(".").map((line, index) => (
-              <li key={index}>{line}</li>
-            ))}
+            {description
+              .split(".")
+              .filter(Boolean)
+              .map((line, index) => (
+                <li key={index}>{line}</li>
+              ))}
           </ul>
         </div>
       </motion.div>
@@ -61,11 +63,15 @@ function IndividualExperience({
 function Experience() {
   const { ref } = useSectionInView("Experience");
   return (
-    <section ref={ref} id="experience" className="scroll-mt-28 mb-28 sm:mb-40 bg-slate-400">
+    <section
+      ref={ref}
+      id="experience"
+      className="scroll-mt-28 mb-28 sm:mb-40 bg-slate-400 overflow-x-hidden"
+    >
       <SectionHeading>My Experience</SectionHeading>
       {experiencesData.map((item, index) => {
         return (
-          <React.Fragment key={index}>
+          <React.Fragment key={item.title}>
             <IndividualExperience {...item} />
           </React.Fragment>
         );
