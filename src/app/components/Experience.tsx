@@ -1,15 +1,9 @@
 "use client";
 import React from "react";
-import {
-  VerticalTimeline,
-  VerticalTimelineElement,
-} from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import SectionHeading from "./SectionHeading";
 import { experiencesData } from "@/lib/data";
 import { useSectionInView } from "@/lib/hooks";
-import { useTheme } from "@/context/theme-context";
-import { useInView } from "react-intersection-observer";
 import Image from "next/image";
 import { motion } from "framer-motion";
 

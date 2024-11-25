@@ -31,7 +31,7 @@ function Contact() {
       transition={{ duration: 1 }}
       viewport={{ once: true }}
     >
-      <SectionHeading>Let's Connect </SectionHeading>
+      <SectionHeading>Let&apos;s Connect </SectionHeading>
       <p></p>
       <form
         action={sendEmailAction}

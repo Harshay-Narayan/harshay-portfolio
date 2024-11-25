@@ -1,6 +1,6 @@
 "use client";
-import { delay, motion, useAnimation, useInView } from "framer-motion";
-import React, { useEffect, useRef, useTransition } from "react";
+import { motion, useAnimation, useInView } from "framer-motion";
+import React, { useEffect, useRef } from "react";
 
 type TypingTextComponentProps = {
   text: string | string[];
@@ -49,7 +49,7 @@ function TypingTextComponent({
       controls.start("hidden");
     }
     return () => clearTimeout(timeout);
-  }, [isInView]);
+  }, [isInView, controls, repeatDelay, waitTime]);
 
   return (
     <span className={className}>

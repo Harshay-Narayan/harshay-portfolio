@@ -15,13 +15,12 @@ import {
 type ContactFormEmailProps = {
   senderName: string;
   senderEmail: string;
-  subject: string;
+  subject?: string;
   message: string;
 };
 function ContactFormEmail({
   senderName,
   senderEmail,
-  subject,
   message,
 }: ContactFormEmailProps) {
   return (

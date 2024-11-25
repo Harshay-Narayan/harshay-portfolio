@@ -49,7 +49,7 @@ export const sendEmail = async (formData: FormData) => {
       }),
     });
   } catch (error: unknown) {
-    return { 
+    return {
       error: getErrorMessage(error),
     };
   }
