@@ -69,7 +69,7 @@ function Experience() {
       className="scroll-mt-28 mb-28 sm:mb-40 bg-slate-400 overflow-x-hidden"
     >
       <SectionHeading>My Experience</SectionHeading>
-      {experiencesData.map((item, index) => {
+      {experiencesData.map((item) => {
         return (
           <React.Fragment key={item.title}>
             <IndividualExperience {...item} />
