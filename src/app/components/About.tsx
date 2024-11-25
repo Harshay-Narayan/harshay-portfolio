@@ -19,7 +19,7 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        Hey there, I'm Harshay Narayan, a software engineer based in India.
+        Hey there, I&apos;m Harshay Narayan, a software engineer based in India.
       </p>
       <p className="mb-3">
         I&apos;m all about creating digital experiences that put humans first.
