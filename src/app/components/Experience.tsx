@@ -61,7 +61,7 @@ function IndividualExperience({
 function Experience() {
   const { ref } = useSectionInView("Experience");
   return (
-    <section ref={ref} id="experience" className="scroll-mt-28 mb-28 sm:mb-40">
+    <section ref={ref} id="experience" className="scroll-mt-28 mb-28 sm:mb-40 bg-slate-400">
       <SectionHeading>My Experience</SectionHeading>
       {experiencesData.map((item, index) => {
         return (
