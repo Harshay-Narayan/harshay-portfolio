@@ -22,7 +22,7 @@ function IndividualExperience({
       whileInView={{ opacity: 1 }}
       transition={{ duration: 0.9 }}
       viewport={{ once: true }}
-      className="relative border-l max-w-[48rem] mx-5 flex"
+      className="relative border-l max-w-[48rem] flex ml-7"
     >
       <div className="flex justify-center overflow-hidden items-center absolute left-0 top-0 -translate-x-1/2 bg-white border border-gray-400 rounded-full w-14 h-14">
         <Image
@@ -66,7 +66,7 @@ function Experience() {
     <section
       ref={ref}
       id="experience"
-      className="scroll-mt-28 mb-28 sm:mb-40 bg-slate-400 overflow-x-hidden"
+      className="scroll-mt-28 mb-28 sm:mb-40 overflow-x-hidden"
     >
       <SectionHeading>My Experience</SectionHeading>
       {experiencesData.map((item) => {
