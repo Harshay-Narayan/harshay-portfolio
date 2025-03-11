@@ -28,7 +28,7 @@ export default function About() {
       </p>
       My goal is always to create digital experiences that feel intuitive,
       human-centric, and just plain awesome. I&apos;ve been working professionally
-      for 4 few years now, and I&apos;ve had the chance to work on a wide range of
+      for 3 few years now, and I&apos;ve had the chance to work on a wide range of
       projects. Some of my favorite work has been in the realm of Frontend
       Development - there&apos;s something incredibly satisfying about creating a
       seamless, user-friendly interface that just clicks.{" "}

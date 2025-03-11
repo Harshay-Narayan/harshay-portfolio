@@ -8,7 +8,7 @@ function NavigationLargeScreen() {
     useActiveSectionContext();
   return (
     <div className="hidden bg-transparent w-full h-full sm:flex justify-center text-sm items-center dark:text-white">
-      <ul className="flex items-center gap-10">
+      <ul className="flex items-center gap-5">
         {navMenuItems.map((item) => (
           <li className="relative p-2 rounded-2xl" key={item.path}>
             <Link

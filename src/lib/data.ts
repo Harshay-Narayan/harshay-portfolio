@@ -9,19 +9,10 @@ export const navMenuItems = [
 
 export const experiencesData = [
   {
-    title: "Frontend Engineer",
-    location: "Noida, India",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    image: "/images/wavenest.png",
-    date: "2023 - Present",
-    company: "Wavenest Technology",
-  },
-  {
     title: "Analyst, Frontend Developer",
     location: "Bangalore, India",
     description:
-      "Collaborated with CTO and CIO to improve frontend of the web application. Worked with UI designer to implement design changes and improve app performance. Developed innovative solutions to complex front-end challenges. Delivered high-quality work on time and within budget. Demonstrated strong communication and collaboration skills with cross-functional teams",
+      "Translated wireframes and mockups into functional and visually appealing Preference Center UI using ReactJS, enabling 21 million customers to manage their communication preferences. Integrated the UI with Salesforce backend APIs, ensuring seamless data synchronization. Collaborated with Salesforce developers and QA teams to define requirements, develop features, and maintain high software quality. Delivered the project on time using Agile methodologies, reducing rework, and improving efficiency in the development lifecycle. Developed Alert Center screens using ReactJS, enabling customers to receive service and marketing alerts based on their geographical location. Consumed API endpoints exposed by the intermediary system to ensure consistent data flow and location-based alert retrieval on the portal. Facilitated client demos, achieving great client satisfaction and consistent milestone delivery.",
     image: "/images/deloitteLogo.png",
     date: "2020 - 2023",
     company: "Deloitte USI",
@@ -30,43 +21,34 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Hive",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: "/images/logo.png",
-  },
-  {
-    title: "rmtDev",
-    description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: "/images/logo.png",
-  },
-  {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "Hive is a full-stack social media platform built with Next.js, TypeScript, and PostgreSQL, offering real-time chat, notifications, and online user tracking via Socket.io and Redis. It features Clerk authentication with webhooks, automatic user creation, and an interactive post, like, and comment system. With a scalable architecture and a sleek Tailwind CSS UI, Hive delivers a seamless and engaging social experience.",
+    tags: [
+      "Next.js",
+      "React.js",
+      "Tailwind",
+      "PostgreSQL",
+      "Prisma",
+      "Socket.io",
+      "Redis",
+    ],
     imageUrl: "/images/logo.png",
   },
 ] as const;
 
 export const skillsData = [
-  { skill: "HTML", slug: "html" },
-  { skill: "CSS", slug: "css" },
-  { skill: "JavaScript", slug: "js" },
+  { skill: "Next.js", slug: "nextjs" },
   { skill: "React", slug: "react" },
   { skill: "Redux", slug: "redux" },
+  { skill: "Tailwind", slug: "tailwind" },
+  { skill: "JavaScript", slug: "js" },
+  { skill: "Node.js", slug: "nodejs" },
+  { skill: "Prisma", slug: "prisma" },
+  { skill: "HTML", slug: "html" },
+  { skill: "CSS", slug: "css" },
   { skill: "Sass", slug: "sass" },
   { skill: "Styled Components", slug: "styledcomponents" },
-  { skill: "Tailwind", slug: "tailwind" },
-  { skill: "Next.js", slug: "nextjs" },
-  { skill: "Prisma", slug: "prisma" },
-  { skill: "Node.js", slug: "nodejs" },
   { skill: "Vitest", slug: "vitest" },
-  { skill: "Jest", slug: "jest" },
-  { skill: "NPM", slug: "npm" },
   { skill: "Git", slug: "git" },
-  { skill: "Github", slug: "github" },
 ] as const;

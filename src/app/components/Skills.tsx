@@ -37,8 +37,6 @@ function Skills() {
             }}
             custom={index}
           >
-            {/* {item.skill}
-            <item.ReactIcon /> */}
             <Image
               src={`https://skillicons.dev/icons?i=${item.slug}&theme=light`}
               alt={item.skill}

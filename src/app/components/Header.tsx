@@ -40,7 +40,7 @@ export default function Header() {
   return (
     <header className="flex w-full justify-center relative z-[999]">
       <motion.nav
-        className="fixed sm:top-6 w-full h-[4.5rem] flex justify-between items-center backdrop-blur-sm bg-white/80 dark:bg-gray-950 dark:text-white sm:h-[3.8rem] sm:w-[55rem] shadow-lg sm:rounded-2xl"
+        className="fixed sm:top-6 w-full h-[4.5rem] sm:h-[3.5rem] sm:w-[48rem] flex justify-between items-center backdrop-blur-sm bg-white/80 dark:bg-gray-950 dark:text-white shadow-lg sm:rounded-full"
         variants={headerVariant}
         initial="start"
         animate="end"

@@ -18,7 +18,7 @@ function Intro() {
     <section
       id="home"
       ref={ref}
-      className="mb-20 max-w-[55rem] sm:mb-0 scroll-mt-[100rem]"
+      className="mb-20 max-w-[48rem] sm:mb-0 scroll-mt-[100rem]"
     >
       <div className="flex flex-col sm:flex-row w-full">
         <motion.div
@@ -29,14 +29,13 @@ function Intro() {
           <TypingTextComponent
             text="Hi, I'm Harshay."
             once={true}
-            className="text-5xl font-extrabold"
+            className="text-4xl font-extrabold"
           />
-          <div className="mt-10">
-            <TypingTextComponent
-              text="I'm a Senior Frontend Engineer passionate about crafting web applications that excel in both speed and design. I utilize the latest technologies and prioritize a user-centric approach to build scalable, responsive, and secure frontend architectures for businesses."
-              once={true}
-              waitTime={2000}
-            />
+          <div className="mt-10 text-justify">
+            I'm a Frontend Developer passionate about crafting web applications
+            that excel in both speed and design. I utilize the latest
+            technologies and prioritize a user-centric approach to build
+            scalable, responsive, and secure frontend for businesses.
           </div>
         </motion.div>
         <div className="order-1 sm:order-none w-fit">
@@ -47,10 +46,10 @@ function Intro() {
               transition={{ type: "tween", duration: 0.2 }}
             >
               <Image
-                src="/images/introImage.png"
+                src="/images/developer.png"
                 alt="harshay-narayan"
-                width={500}
-                height={500}
+                width={1200}
+                height={1200}
                 priority={true}
                 // className="h-[500px] w-[500px]"
               />
