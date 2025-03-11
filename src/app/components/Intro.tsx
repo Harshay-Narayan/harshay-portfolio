@@ -51,7 +51,7 @@ function Intro() {
                 width={1200}
                 height={1200}
                 priority={true}
-                // className="h-[500px] w-[500px]"
+                className="w-[600px]"
               />
             </motion.div>
             {/* <motion.span
