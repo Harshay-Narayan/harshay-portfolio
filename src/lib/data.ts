@@ -10,11 +10,22 @@ export const navMenuItems = [
 export const experiencesData = [
   {
     title: "Analyst, Frontend Developer",
-    location: "Bangalore, India",
+    location: "Bengaluru, India",
+    projectName: "Preference Center",
     description:
-      "Translated wireframes and mockups into functional and visually appealing Preference Center UI using ReactJS, enabling 21 million customers to manage their communication preferences. Integrated the UI with Salesforce backend APIs, ensuring seamless data synchronization. Collaborated with Salesforce developers and QA teams to define requirements, develop features, and maintain high software quality. Delivered the project on time using Agile methodologies, reducing rework, and improving efficiency in the development lifecycle. Developed Alert Center screens using ReactJS, enabling customers to receive service and marketing alerts based on their geographical location. Consumed API endpoints exposed by the intermediary system to ensure consistent data flow and location-based alert retrieval on the portal. Facilitated client demos, achieving great client satisfaction and consistent milestone delivery.",
+      "Translated wireframes and mockups into functional and visually appealing Preference Center UI using ReactJS, enabling 21 million customers to manage their communication preferences. Integrated the UI with Salesforce backend APIs, ensuring seamless data synchronization. Collaborated with Salesforce developers and QA teams to define requirements, develop features, and maintain high software quality. Delivered the project on time using Agile methodologies, reducing rework, and improving efficiency in the development lifecycle.",
     image: "/images/deloitteLogo.png",
-    date: "2020 - 2023",
+    date: "July 2020 - Aug 2023",
+    company: "Deloitte USI",
+  },
+  {
+    title: "Analyst, Frontend Developer",
+    location: "Bengaluru, India",
+    projectName: "Alert Center",
+    description:
+      "Developed Alert Center screens using ReactJS, enabling customers to receive service and marketing alerts based on their geographical location. Integrated Alert Center UI with API endpoints exposed by the intermediary system to ensure consistent data flow and location-based alert retrieval on the portal. Facilitated client demos, achieving great client satisfaction and consistent milestone delivery.",
+    image: "/images/deloitteLogo.png",
+    date: "July 2021 - June 2022",
     company: "Deloitte USI",
   },
 ] as const;

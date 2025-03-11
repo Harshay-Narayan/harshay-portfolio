@@ -15,6 +15,7 @@ function IndividualExperience({
   description,
   image,
   company,
+  projectName,
 }: IndividualExperienceProps) {
   return (
     <motion.div
@@ -40,12 +41,15 @@ function IndividualExperience({
         viewport={{ once: true }}
         className="p-10 pt-3"
       >
+        <div className="font-bold">{company}</div>
         <div className="text-sm">{date}</div>
-        <div className="text-lg sm:text-md font-bold">
+        <div className="text-sm sm:text-md font-bold">
           {title} | {location}
         </div>
-        <div className="text-sm">{company}</div>
-        <div className="pt-3 text-justify text-sm">
+        <div className="mt-3">
+          <span className="font-bold underline">Project:</span> {projectName}
+        </div>
+        <div className="text-justify text-sm">
           <ul className="list-disc">
             {description
               .split(".")

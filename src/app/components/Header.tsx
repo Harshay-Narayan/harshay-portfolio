@@ -47,7 +47,7 @@ export default function Header() {
       >
         <div>
           <div className="sm:p-5 px-5">
-            <Image src="/images/logo.png" alt="logo" width={40} height={40} />
+            <Image src="/images/logo.png" alt="logo" width={100} height={100} className="w-12"/>
           </div>
         </div>
 
