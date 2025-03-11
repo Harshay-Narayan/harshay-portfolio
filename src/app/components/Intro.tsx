@@ -32,7 +32,7 @@ function Intro() {
             className="text-4xl font-extrabold"
           />
           <div className="mt-10 text-justify">
-            I'm a Frontend Developer passionate about crafting web applications
+            I&apos;m a Frontend Developer passionate about crafting web applications
             that excel in both speed and design. I utilize the latest
             technologies and prioritize a user-centric approach to build
             scalable, responsive, and secure frontend for businesses.
