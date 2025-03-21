@@ -38,6 +38,8 @@ export const projectsData = [
     tags: [
       "Next.js",
       "React.js",
+      "Node.js",
+      "Express.js",
       "Tailwind",
       "PostgreSQL",
       "Prisma",

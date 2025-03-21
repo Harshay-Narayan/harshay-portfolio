@@ -1,8 +1,10 @@
 "use client";
 import React, { useRef } from "react";
 import { projectsData } from "@/lib/data";
+import Link from "next/link";
 // import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
+import { Link as LinkIcon } from "lucide-react";
 
 type ProjectProps = (typeof projectsData)[number];
 
@@ -46,6 +48,20 @@ function Project({ title, description, tags }: ProjectProps) {
           priority={false}
           className="hidden sm:block w-[15rem] shadow-lg"
         /> */}
+        <div className="w-fit mt-4">
+          <Link
+            href="https://social-media-app-hive.vercel.app"
+            target="/blank"
+            className="w-fit"
+          >
+            <div className="flex underline gap-1 font-semibold active:text-blue-500 italic hover:scale-105 transition-transform">
+              <div>
+                <LinkIcon />
+              </div>
+              <div>Live Link</div>
+            </div>
+          </Link>
+        </div>
       </div>
     </motion.div>
   );
